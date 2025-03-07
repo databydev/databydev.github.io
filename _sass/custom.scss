@@ -15,8 +15,8 @@ body {
 }
 
 .author__avatar img {
-  width: 100px; /* Increase size to zoom in */
-  height: 100px; /* Maintain proportion */
+  width: 80px; /* Increase size to zoom in */
+  height: 80px; /* Maintain proportion */
   object-fit: cover; /* Ensures it fills the frame */
   object-position: 50% 0%; /* Keeps the focus in the middle */
   transform: scale(1.5);
