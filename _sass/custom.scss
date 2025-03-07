@@ -4,10 +4,10 @@ body {
   }
   
 /* Force avatar to be a rectangle */
-.author__avatar {
-  border-radius: 0 !important; /* Removes oval shape */
-  width: 120px !important;  /* Adjust width */
+.author__avatar img {
+  border-radius: 0 !important; /* Forces a rectangular shape */
+  width: 120px !important;  /* Adjust width as needed */
   height: auto !important;  /* Maintain aspect ratio */
-  object-fit: cover !important; /* Ensures proper scaling */
+  object-fit: cover !important; /* Ensures the image is not distorted */
 }
 
