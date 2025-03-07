@@ -1,4 +1,3 @@
-
 Greetings!
 
 I'm Dev Ananthraj, a practicing medical professional with a deep curiosity for data science. 
