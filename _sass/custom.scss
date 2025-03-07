@@ -5,9 +5,10 @@ body {
   
 /* Force avatar to be a rectangle */
 .author__avatar img {
-  border-radius: 0 !important; /* Forces a rectangular shape */
-  width: 120px !important;  /* Adjust width as needed */
-  height: auto !important;  /* Maintain aspect ratio */
-  object-fit: cover !important; /* Ensures the image is not distorted */
+  border-radius: 0 !important; /* Keep it rectangular */
+  width: 150px !important;  /* Adjust width */
+  height: 150px !important; /* Adjust height */
+  object-fit: cover !important; /* Ensures no stretching */
+  object-position: center center !important; /* Centers the image */
+  transform: scale(1.3); /* Zoom in effect */
 }
-
