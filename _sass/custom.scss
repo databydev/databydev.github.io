@@ -1,0 +1,12 @@
+body {
+    background: url('/assets/images/wallpaper.png') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+/* Force avatar to be a rectangle */
+.author__avatar {
+  border-radius: 0 !important; /* Removes the oval effect */
+  width: 150px;  /* Adjust width as needed */
+  height: auto;  /* Keeps aspect ratio */
+}
+
