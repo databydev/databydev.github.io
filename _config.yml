@@ -115,9 +115,7 @@ analytics:
 author:
   name             : "Dev Ananthraj"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Greetings! I am a practicing medical professional with a deep curiosity for data science. While I continue my journey in clinical practice, I'm also exploring the world of data - by turning numbers into narratives and challenges into solutions. Welcome to my space!
-
-"
+  bio              : "Exploring healthcare and data science"
   location         : "Kuala Lumpur / Kuching "
   email            : dev.ananthraj95@gmail.com
   links:
