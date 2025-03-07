@@ -5,8 +5,9 @@ body {
   
 /* Force avatar to be a rectangle */
 .author__avatar {
-  border-radius: 0 !important; /* Removes the oval effect */
-  width: 150px;  /* Adjust width as needed */
-  height: auto;  /* Keeps aspect ratio */
+  border-radius: 0 !important; /* Removes oval shape */
+  width: 120px !important;  /* Adjust width */
+  height: auto !important;  /* Maintain aspect ratio */
+  object-fit: cover !important; /* Ensures proper scaling */
 }
 
