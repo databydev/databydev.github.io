@@ -5,19 +5,18 @@ body {
   
 /* Force avatar to be a rectangle */
 .author__avatar {
-  width: 150px;  /* Keep container size fixed */
-  height: 150px; /* Keep container size fixed */
-  overflow: hidden; /* Ensures image stays inside the box */
-  border-radius: 10px; /* Optional: Keep it rectangular */
+  width: 150px;  /* Fixed container width */
+  height: 100px; /* Fixed container height */
+  overflow: hidden; /* Keeps image inside the box */
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 0; /* Ensures it stays rectangular */
 }
 
 .author__avatar img {
-  width: 200px; /* Make image larger than container */
-  height: auto; /* Keep aspect ratio */
-  object-fit: cover; /* Ensures proper cropping */
-  object-position: center; /* Centers the zoom */
+  width: 200px; /* Increase size to zoom in */
+  height: 150px; /* Increase height to maintain rectangle */
+  object-fit: cover; /* Ensures it fills the box */
+  object-position: center; /* Focuses on the middle */
 }
-
