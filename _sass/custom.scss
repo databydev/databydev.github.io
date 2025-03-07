@@ -4,12 +4,20 @@ body {
   }
   
 /* Force avatar to be a rectangle */
-.author__avatar img {
-  border-radius: 0 !important; /* Keep it rectangular */
-  width: 150px !important;  /* Keep the box size */
-  height: 150px !important; /* Keep the box size */
-  object-fit: cover !important; /* Ensures no stretching */
-  object-position: top center !important; /* Moves focus upwards */
-  object-position: 50% 30% !important; /* Fine-tune X (horizontal) & Y (vertical) position */  
-  transform: scale(1.5); /* Zooms into the image */
+.author__avatar {
+  width: 150px;  /* Keep container size fixed */
+  height: 150px; /* Keep container size fixed */
+  overflow: hidden; /* Ensures image stays inside the box */
+  border-radius: 10px; /* Optional: Keep it rectangular */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.author__avatar img {
+  width: 200px; /* Make image larger than container */
+  height: auto; /* Keep aspect ratio */
+  object-fit: cover; /* Ensures proper cropping */
+  object-position: center; /* Centers the zoom */
+}
+
