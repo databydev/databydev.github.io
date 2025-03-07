@@ -15,9 +15,9 @@ body {
 }
 
 .author__avatar img {
-  width: 150px; /* Increase size to zoom in */
-  height: 150px; /* Maintain proportion */
+  width: 100px; /* Increase size to zoom in */
+  height: 100px; /* Maintain proportion */
   object-fit: cover; /* Ensures it fills the frame */
-  object-position: 100% 0%; /* Keeps the focus in the middle */
+  object-position: 50% 0%; /* Keeps the focus in the middle */
   transform: scale(1.5);
 }
