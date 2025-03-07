@@ -1,11 +1,4 @@
 
----
-title: Introduction
-date : 2025-03-05 12:00:00 +0800
-categories: [general]
-tags : [data,science,medicine,introduction]
----
-
 Greetings!
 
 I'm Dev Ananthraj, a practicing medical professional with a deep curiosity for data science. 
