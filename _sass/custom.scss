@@ -9,8 +9,8 @@ body {
   height: 100px; 
   overflow: hidden; /* Keeps image inside the frame */
   display: flex;
-  justify-content: right top;
-  align-items: right top;
+  justify-content: top right;
+  align-items: top right;
   border-radius: 0 !important; /* Ensure it's a square */
 }
 
