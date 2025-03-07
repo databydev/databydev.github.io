@@ -9,15 +9,15 @@ body {
   height: 100px; 
   overflow: hidden; /* Keeps image inside the frame */
   display: flex;
-  justify-content: top;
-  align-items: top;
+  justify-content: right top;
+  align-items: right top;
   border-radius: 0 !important; /* Ensure it's a square */
 }
 
 .author__avatar img {
-  width: 80px; /* Increase size to zoom in */
-  height: 80px; /* Maintain proportion */
+  width: 100px; /* Increase size to zoom in */
+  height: 100px; /* Maintain proportion */
   object-fit: cover; /* Ensures it fills the frame */
   object-position: 50% 0%; /* Keeps the focus in the middle */
-  transform: scale(1.5);
+  transform: scale(1.6);
 }
