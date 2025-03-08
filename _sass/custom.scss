@@ -17,7 +17,7 @@ body {
 .author__avatar img {
   width: 200px; /* Increase size to zoom in */
   height: 200px; /* Maintain proportion */
-  object-fit: cover; /* Ensures it fills the frame */
-  object-position: 50% -50%; /* Moves image up to show more hair */
-  transform: scale(1.4); /* Zoom in slightly */
+  object-fit: none; /* Ensures it fills the frame */
+  object-position: 80% 0%; /* Moves image up to show more hair */
+  transform: scale(1.0); /* Zoom in slightly */
 }
