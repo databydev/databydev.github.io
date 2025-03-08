@@ -8,9 +8,6 @@ body {
   width: 100px; /* Define the fixed frame size */
   height: 100px; 
   overflow: hidden; /* Keeps image inside the frame */
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
   border-radius: 0 !important; /* Ensure it's a square */
 }
 
@@ -19,5 +16,5 @@ body {
   height: 200px; /* Maintain proportion */
   object-fit: cover; /* Ensures it fills the frame */
   object-position: 80% 0%; /* Moves image up to show more hair */
-  transform: scale(1.0); /* Zoom in slightly */
+  transform: scale(1.2); /* Zoom in slightly */
 }
