@@ -35,6 +35,13 @@ body {
 
 .page__footer {
   background-color: rgba(0, 0, 0, 0.5); /* Light grayish-black shade */
-  padding: 5px; /* Adds spacing inside the box */
+  padding: 0px; /* Adds spacing inside the box */
   border-radius: 5px; /* Optional: softens the corners */
 } 
+
+.layout--single {
+  background-color: rgba(0, 0, 0, 0.5); /* Light grayish-black shade */
+  padding: 0px; /* Adds spacing inside the box */
+  border-radius: 5px; /* Optional: softens the corners */
+}
+
