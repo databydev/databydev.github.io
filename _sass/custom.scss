@@ -21,8 +21,20 @@ body {
 }
 
 
-.layout--home {
-  background-color: rgba(0, 0, 0, 0.3); /* Light grayish-black shade */
+.masthead {
+  background-color: rgba(0, 0, 0, 0.8); /* Light grayish-black shade */
+  padding: 5px; /* Adds spacing inside the box */
+  border-radius: 5px; /* Optional: softens the corners */
+} 
+
+.initial-content {
+  background-color: rgba(0, 0, 0, 0.8); /* Light grayish-black shade */
+  padding: 5px; /* Adds spacing inside the box */
+  border-radius: 5px; /* Optional: softens the corners */
+} 
+
+.page__footer{
+  background-color: rgba(0, 0, 0, 0.8); /* Light grayish-black shade */
   padding: 5px; /* Adds spacing inside the box */
   border-radius: 5px; /* Optional: softens the corners */
 } 
