@@ -17,4 +17,5 @@ body {
   object-fit: cover; /* Ensures it fills the frame */
   object-position: 80% 0%; /* Moves image up to show more hair */
   transform: scale(1.2); /* Zoom in slightly */
+  border-radius: 0 !important; /* Prevent rounding on the image itself */
 }
