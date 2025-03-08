@@ -11,6 +11,14 @@ body {
   border-radius: 0 !important; /* Ensure it's a square */
 }
 
+
+.initial-content {
+  background-color: rgba(0, 0, 0, 0.8); /* Light grayish-black shade */
+  padding: 5px; /* Adds spacing inside the box */
+  border-radius: 5px; /* Optional: softens the corners */
+} 
+
+/*
 .author__avatar img {
   width: 200px; /* Increase size to zoom in */
   height: 200px; /* Maintain proportion */
@@ -19,22 +27,28 @@ body {
   transform: scale(1.2); /* Zoom in slightly */
   border-radius: 0 !important; /* Prevent rounding on the image itself */
 }
+*/
 
-
+/*
 .author__bio {
   background-color: rgba(0, 0, 0, 0.8); /* Light grayish-black shade */
   padding: 5px; /* Adds spacing inside the box */
   border-radius: 5px; /* Optional: softens the corners */
 }
+*/
 
+/*
 .author__name {
   background-color: rgba(0, 0, 0, 0.8); /* Light grayish-black shade */
   padding: 5px; /* Adds spacing inside the box */
   border-radius: 5px; /* Optional: softens the corners */
 }
+*/
 
+/*
 .list__item {
   background-color: rgba(0, 0, 0, 0.8); /* Light grayish-black shade */
   padding: 5px; /* Adds spacing inside the box */
   border-radius: 5px; /* Optional: softens the corners */
 }
+*/
