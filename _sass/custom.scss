@@ -21,8 +21,8 @@ body {
 }
 
 
-.author__bio p-note {
-  background: rgba(0, 0, 0, 0.6); /* Black with 60% transparency */
-  padding: 10px; /* Adds spacing inside */
-  border-radius: 5px; /* Softens the edges */
+.author__bio {
+  background-color: rgba(0, 0, 0, 1); /* Light grayish-black shade */
+  padding: 10px; /* Adds spacing inside the box */
+  border-radius: 5px; /* Optional: softens the corners */
 }
