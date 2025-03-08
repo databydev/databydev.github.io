@@ -19,3 +19,10 @@ body {
   transform: scale(1.2); /* Zoom in slightly */
   border-radius: 0 !important; /* Prevent rounding on the image itself */
 }
+
+
+.author__text-box {
+  background: rgba(0, 0, 0, 0.6); /* Black with 60% transparency */
+  padding: 10px; /* Adds spacing inside */
+  border-radius: 5px; /* Softens the edges */
+}
