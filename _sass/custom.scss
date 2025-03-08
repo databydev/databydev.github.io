@@ -18,6 +18,6 @@ body {
   width: 200px; /* Increase size to zoom in */
   height: 200px; /* Maintain proportion */
   object-fit: cover; /* Ensures it fills the frame */
-  object-position: 50% -30%; /* Keeps the focus in the middle */
+  object-position: 100% -30%; /* Keeps the focus in the middle */
   transform: scale(1.6);
 }
