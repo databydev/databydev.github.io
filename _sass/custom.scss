@@ -22,7 +22,19 @@ body {
 
 
 .author__bio {
-  background-color: rgba(0, 0, 0, 1); /* Light grayish-black shade */
-  padding: 10px; /* Adds spacing inside the box */
+  background-color: rgba(0, 0, 0, 0.8); /* Light grayish-black shade */
+  padding: 5px; /* Adds spacing inside the box */
+  border-radius: 5px; /* Optional: softens the corners */
+}
+
+.author__name {
+  background-color: rgba(0, 0, 0, 0.8); /* Light grayish-black shade */
+  padding: 5px; /* Adds spacing inside the box */
+  border-radius: 5px; /* Optional: softens the corners */
+}
+
+.list__item {
+  background-color: rgba(0, 0, 0, 0.8); /* Light grayish-black shade */
+  padding: 5px; /* Adds spacing inside the box */
   border-radius: 5px; /* Optional: softens the corners */
 }
